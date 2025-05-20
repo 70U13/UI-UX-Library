@@ -72,6 +72,19 @@
     font-weight: 800;
     letter-spacing: 0.2em;
 }
+.text-4{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+}
+
+.text-8{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+}
 
 .text-9{
     font-family: 'Work Sans', sans-serif;
@@ -94,4 +107,11 @@
     font-weight: 800;
     text-transform: uppercase;
     letter-spacing: 0.1em;
+}
+
+.text-16 {
+    color: #000;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
 }
