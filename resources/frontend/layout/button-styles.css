@@ -1,3 +1,7 @@
+.btn-outline-none:focus {
+  outline: none;       
+}
+
 .button0:hover {
   border: 2px solid #000;
 }
@@ -21,20 +25,19 @@
 .button2 {
   --primary-color: #FF9B45;
   --secondary-color: #fff;
-  --hover-color: #111;
+  --hover-color: #444;
   --arrow-width: 10px;      
   --arrow-stroke: 2px;
+  width: 70%;
   box-sizing: border-box;
   border: 0;
   border-radius: 20px;
   color: var(--secondary-color);
-  padding: 1em 1.8em;
   background: var(--primary-color);
   display: flex;
   transition: 0.2s background;
   align-items: center;
-  gap: 0.6em;
-  font-weight: bold;
+  gap: 0.7em;
 }
 .button2 .arrow-wrapper {
   display: flex;
@@ -63,7 +66,8 @@
   transform: rotate(-45deg);
 }
 .button2:hover {
-  background-color: var(--hover-color);
+  background: var(--hover-color);
+  box-shadow: -4px 6px 2px var(--primary-color);
 }
 .button2:hover .arrow {
   background: var(--secondary-color);
@@ -72,15 +76,13 @@
   right: 0;
 }
 
+
 .button3 {
-  text-transform: uppercase;
-  letter-spacing: 2.5px;
   background-color: #fff;
   border-radius: 45px;
   box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
   transition: all 0.3s ease 0s;
   cursor: pointer;
-  outline: none;
 }
 .button3:hover {
   background-color: #AA60C8;
@@ -136,7 +138,6 @@
   font-weight: 600;
   text-decoration: none;
   cursor: pointer;
-  outline: none;
   overflow: hidden;
   transition: color 0.3s 0.1s ease-out;
   text-align: center;
@@ -268,6 +269,7 @@
 }
 
 .button9 {
+  border: 3px solid #FADA7A;
   display: inline-block;
   text-align: center;
   position: relative;
@@ -301,13 +303,13 @@
   transform: scale(0.9);
 }
 
-.button10 {
- background: black;
- color: white;
- cursor: pointer;
- position: relative;
- z-index: 1;
- overflow: hidden;
+.button10 { 
+  width: 60%;
+  background: black;
+  cursor: pointer;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
 }
 .button10:hover {
  color: black;
@@ -363,17 +365,15 @@
 }
 
 .button13 {
-  border: 0;
+  width: 60%;
+  border-radius: 40px;
   background-color: #67AE6E;
-  letter-spacing: 1.5px;
-  font-size: 15px;
   transition: all 0.3s ease;
   box-shadow: rgb(77, 139, 85) 0px 10px 0px 0px;
-  color: hsl(0, 0%, 100%);
   cursor: pointer;
 }
 .button13:hover {
-  box-shadow: rgb(77, 139, 85) 0px 7px 0px 0px;
+  box-shadow: rgb(77, 139, 85) 0px 6px 0px 0px;
 }
 .button13:active {
   background-color: rgb(77, 139, 85);
@@ -381,13 +381,11 @@
   transform: translateY(5px);
   transition: 200ms;
 }
-.button14:focus {
-  outline: none;       
-}
 
 .button14 {
   cursor: pointer;
-  color: #578FCA;
+  width: 70%;
+  border-radius: 30px;
   background-color: #f8f8fd;
   border: 6px solid #578FCA;
   box-shadow: 0px 8px #396C9B;
@@ -397,11 +395,9 @@
   top: 8px;
   border: 6px solid #578FCA;
   box-shadow: 0px 0px;
-  color: #578FCA;
 }
 .button14:focus {
-  outline: none;
-  color: #578FCA; 
+  color: #396C9B;
 }
 
 

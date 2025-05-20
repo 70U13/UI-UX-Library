@@ -1,6 +1,6 @@
 const Btn1 = ({ className = "", text, hasIcon = false, hasSpan = false, hasArrow = false }) => {
   return (
-    <button className={`justify-center items-center btn1 my-20 mx-12 py-6 px-10 rounded-[10px] border-2 relative overflow-hidden ${className}`}>
+    <button className={`justify-center items-center btn1 my-20 mx-12 py-6 px-10 relative overflow-hidden ${className}`}>
         {hasSpan && <span className="absolute left-0 top-0 w-full h-full bg-transparent z-[-1]"></span>}
         {hasIcon && 
         <svg
