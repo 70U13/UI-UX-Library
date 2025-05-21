@@ -1,0 +1,88 @@
+.button13 {
+  width: 60%;
+  border-radius: 40px;
+  background-color: #67AE6E;
+  transition: all 0.3s ease;
+  box-shadow: rgb(77, 139, 85) 0px 10px 0px 0px;
+  cursor: pointer;
+}
+.button13:hover {
+  box-shadow: rgb(77, 139, 85) 0px 6px 0px 0px;
+}
+.button13:active {
+  background-color: rgb(77, 139, 85);
+  box-shadow: rgb(103, 174, 110) 0px 0px 0px 0px;
+  transform: translateY(5px);
+  transition: 200ms;
+}
+
+.button10 { 
+  width: 60%;
+  background: black;
+  cursor: pointer;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+}
+.button10:hover {
+ color: black;
+}
+.button10:after {
+ content: "";
+ background: white;
+ position: absolute;
+ z-index: -1;
+ left: -20%;
+ right: -20%;
+ top: 0;
+ bottom: 0;
+ transform: skewX(-45deg) scale(0, 1);
+ transition: all 0.5s;
+}
+.button10:hover:after {
+ transform: skewX(-45deg) scale(1, 1);
+ -webkit-transition: all 0.5s;
+ transition: all 0.5s;
+}
+.button10:active {
+  border: 3px solid #000;
+}
+
+.button3 {
+  background-color: #fff;
+  border-radius: 45px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+}
+.button3:hover {
+  background-color: #AA60C8;
+  box-shadow: 0px 15px 20px rgba(170, 96, 200, 0.4);
+  color: #fff;
+  transform: translateY(-7px);
+}
+.button3:focus:hover {
+  color: #fff;
+}
+.button3:active {
+  transform: translateY(-1px);
+}
+.button3:focus {
+  color: #AA60C8;
+}
+
+.button1 {
+  cursor: pointer;
+  border: 0;
+  background-color: #E55050;
+  color: white;
+  box-shadow: rgb(0 0 0 / 5%) 0 0 8px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  transition: all 0.5s ease;
+}
+.button1:hover {
+  letter-spacing: 3px;
+  background-color: #E55050;
+  box-shadow: 0px 5px 30px 0px #E55050; 
+}

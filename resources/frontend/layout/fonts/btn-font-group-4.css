@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Aleo:ital,wght@0,100..900;1,100..900&family=Ancizar+Sans:ital,wght@0,100..1000;1,100..1000&family=Besley:ital,wght@0,400..900;1,400..900&family=Bree+Serif&family=Caveat:wght@400..700&family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Delius&family=DynaPuff:wght@400..700&family=Faculty+Glyphic&family=Federo&family=Fredoka:wght@300..700&family=Honk&family=Josefin+Slab:ital,wght@0,100..700;1,100..700&family=Nabla&family=Noto+Color+Emoji&family=Permanent+Marker&family=Quicksand:wght@300..700&family=Roboto+Slab:wght@100..900&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+.text-12 {
+    color: #735557;
+    font-family: "Ancizar Sans", sans-serif;
+    font-size: 20px;
+    font-weight: 800;
+    letter-spacing: 0.15em;
+}
+
+.text-17 {
+    color: #102E50;
+    font-family: "Ancizar Sans", sans-serif;
+    font-size: 20px;
+    font-weight: 800;
+    letter-spacing: 0.15em;
+}
+
+.text-18 {
+    color: #EB5B00;
+    font-family: "Ancizar Sans", sans-serif;
+    font-size: 20px;
+    font-weight: 800;
+    letter-spacing: 0.15em;
+}
+
+.text-19 {
+    color: #fff;
+    font-family: "Ancizar Sans", sans-serif;
+    font-size: 20px;
+    font-weight: 800;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+}

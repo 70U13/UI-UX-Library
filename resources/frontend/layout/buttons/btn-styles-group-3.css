@@ -1,0 +1,102 @@
+.button4 {
+  --color: #DD88CF;
+  background: #fff;
+  width: 50%;
+  border: 2px solid var(--color);
+  border-radius: 30px;
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+  overflow: hidden;
+  transition: color 0.5s;
+  z-index: 1;
+  color: var(--color);
+  box-shadow: 4px 6px 2px #DD88CF;
+}
+.button4:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  background: var(--color);
+  height: 150px;
+  width: 200px;
+  border-radius: 50%;
+}
+.button4:hover {
+  color: #fff;
+}
+.button4:before {
+  top: 100%;
+  left: 100%;
+  transition: all 0.7s;
+}
+.button4:hover:before {
+  top: -30px;
+  left: -30px;
+}
+.button4:active:before {
+  background: #BB66B2;
+  transition: background 0.05s;
+}
+
+.button16 {
+  width: 60%;
+  display: inline-block;
+  outline: 0;
+  cursor: pointer;
+  border: 3px solid #000;
+  border-radius: 3px;
+  background: #fff;
+  transition-duration: .15s;
+  transition-property: all;
+  transition-timing-function: cubic-bezier(.4,0,.2,1);
+  box-shadow: -6px 10px 20px rgb(251, 193, 245)
+}
+.button16:hover{
+  background: rgb(251, 193, 245);
+}
+.button16:active {
+  transform: translateY(7px);
+  transition: 200ms;
+}
+
+.button11 {
+  --bg: #000; 
+  --hover-bg: #9B7EBD;
+  --hover-text: #000;
+  border-radius: 20px;
+  color: #fff;
+  cursor: pointer;
+  background: var(--hover-bg);
+  transition: 0.2s;
+  box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+.button11:hover {
+  transform: translate(-0.3rem, -0.3rem);
+  background: var(--hover-bg);
+  box-shadow: 0.5rem 0.5rem var(--bg);
+}
+.button11:active {
+  transform: translate(0);
+  box-shadow: none;
+}
+
+.button15 {
+  display: inline-block;
+  outline: 0;
+  appearance: none;
+  border-radius: 4px;
+  text-decoration: none;
+  cursor: pointer;
+  background-color: rgb(249, 251, 250);
+  border: 3px solid rgb(137, 151, 155);
+  box-shadow: rgb(6 22 33 / 30%) 0px 1px 2px;
+  color: rgb(61, 79, 88);
+  transition: all 150ms ease-in-out 0s; 
+}
+.button15:hover {
+  color: rgb(61, 79, 88);
+  background-color: rgb(255, 255, 255);
+  border: 3px solid rgb(93, 108, 116);
+  box-shadow: rgb(0 0 0 / 30%) -6px 6px 4px, rgb(231 238 236) 0px 0px 0px 3px;
+}
