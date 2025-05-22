@@ -6,13 +6,13 @@ const Cards = () => {
       {cardData.map((card, index) => {
         const Component = card.Component;
         return (
-            <div className='flex justify-center items-center bg-violet-100 border border-gray-200 rounded-[20px] p-6'>
-                <Component
-                    text={card.text}
-                    image={card.image}
-                    description={card.description}
-                    subtext={card.subtext}
-                />
+            <div className='flex justify-center items-center bg-violet-100 rounded-[20px] p-6'>
+              <Component
+                text={card.text}
+                image={card.image}
+                description={card.description}
+                subtext={card.subtext}
+              />
             </div>
         );
       })}

@@ -22,20 +22,45 @@
 
 .card-text-2 {
     color: #444;
+    font-family: "Fredoka", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0.1rem;
+}
+.card-description-2 {
+    color: #444;
+    font-family: "Fredoka", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.05rem;
+}
+.card-subtext-2 {
+    color: #444;
+    font-family: "Fredoka", sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 14px;
+    letter-spacing: 0.05rem;
+}
+
+.card-text-3 {
+    color: #57413e;
     font-family: 'Work Sans', sans-serif;
     font-size: 20px;
     font-weight: 600;
     line-height: 24px;
 }
-.card-description-2 {
-    color: #444;
+.card-description-3 {
+    color: #57413e;
     font-family: 'Work Sans', sans-serif;
     font-size: 15px;
     font-weight: 400;
     line-height: 20px;
 }
-.card-btn-standby {
-    color: #AA60C8;
+.card-btn-3-standby {
+    color: #57413e;
     font-family: 'Work Sans', sans-serif;
     font-size: 15px;
     font-weight: 600;
@@ -45,7 +70,7 @@
     border: 2px solid rgba(255, 255, 255, 0.8);
     transition: all 0.3s ease, letter-spacing 0.3s ease, transform 0.3s ease;
 }
-.card-btn-active {
+.card-btn-3-active {
     color: #fff;
     font-family: 'Work Sans', sans-serif;
     font-size: 15px;
@@ -53,11 +78,125 @@
     line-height: 20px;
     letter-spacing: 2px;
     text-transform: uppercase;
-    background-color: #AA60C8;
+    background-color: #57413e;
     border: 2px solid transparent;
     transition: all 0.3s ease, letter-spacing 0.3s ease, transform 0.3s ease;
 }
-.card-btn-standby:hover {
-  background-color: rgba(255, 255, 255, 0.8);
+.card-btn-3-standby:hover {
+  background-color: rgba(87, 65, 62, 0.1);
   transform: scale(1.03);
+}
+
+.card-text-4 {
+    color: #444;
+    font-family: "Source Code Pro", monospace;
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 24px;
+}
+.card-description-4 {
+    color: #444;
+    font-family: "Source Code Pro", monospace;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+}
+.card-btn-4 {
+    color: #fff;
+    font-family: "Source Code Pro", monospace;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    transition: all 0.3s ease, letter-spacing 0.3s ease, transform 0.3s ease;
+}
+.card-btn-4:hover {
+    letter-spacing: 5px;
+}
+
+.card-text-5 {
+    color: #fff;
+    font-family: "Work Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.card-btn-5 {
+    color: #000;
+    font-family: "Work Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 1px;
+    background-color: rgb(234, 228, 213);
+}
+
+.card-description-6 {
+    color: #444;
+    font-family: "DynaPuff", system-ui;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 1px;
+}
+.card-btn-6 {
+    color: #fff;
+    font-family: "DynaPuff", system-ui;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    transition: all 0.3s ease, letter-spacing 0.3s ease, transform 0.3s ease;
+}
+
+.card-text-7 {
+    color: #000;
+    font-family: "DM Sans", sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 24px;
+}
+.card-description-7 {
+    color: #000;
+    font-family: "DM Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.card-btn-7 {
+    color: #fff;
+    font-family: "DM Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    box-shadow: 5px 5px 2px #17594A;
+}
+
+.card-text-8 {
+    color: #fff;
+    font-family: "DM Sans", sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 24px;
+}
+.card-description-8 {
+    color: #fff;
+    font-family: "DM Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.card-btn-8 {
+    color: #17594A;
+    font-family: "DM Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    box-shadow: 5px 5px 2px #EAEAEA;
 }

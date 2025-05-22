@@ -6,9 +6,9 @@ const Card0 = ({ text, image, description, subtext }) => {
       </div>
       
       <div className="flex flex-col p-6 gap-6">
-        <h3 className="card-text-1 text-left">{text}</h3>
-        <p className="card-description-1 text-left">{description}</p>
-        <p className="card-subtext-1 text-left">{subtext}</p>
+        <h3 className="card-text-2 text-left">{text}</h3>
+        <p className="card-description-2 text-left">{description}</p>
+        <p className="card-subtext-2 text-left">{subtext}</p>
       </div>
     </div>
   );
