@@ -22,8 +22,8 @@ const Btn1 = ({ className = "", text, hasIcon = false, hasSpan = false, hasArrow
         </svg>}
         {text}
         {hasArrow && 
-          <div class="arrow-wrapper">
-              <div class="arrow"></div>
+          <div className="arrow-wrapper">
+              <div className="arrow"></div>
           </div>
         }
     </button>

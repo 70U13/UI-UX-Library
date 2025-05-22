@@ -1,0 +1,63 @@
+.card-text-1 {
+    color: #444;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 22px;
+}
+.card-description-1 {
+    color: #444;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+}
+.card-subtext-1 {
+    color: #444;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 14px;
+}
+
+.card-text-2 {
+    color: #444;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+}
+.card-description-2 {
+    color: #444;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+}
+.card-btn-standby {
+    color: #AA60C8;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    border: 2px solid rgba(255, 255, 255, 0.8);
+    transition: all 0.3s ease, letter-spacing 0.3s ease, transform 0.3s ease;
+}
+.card-btn-active {
+    color: #fff;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    background-color: #AA60C8;
+    border: 2px solid transparent;
+    transition: all 0.3s ease, letter-spacing 0.3s ease, transform 0.3s ease;
+}
+.card-btn-standby:hover {
+  background-color: rgba(255, 255, 255, 0.8);
+  transform: scale(1.03);
+}
